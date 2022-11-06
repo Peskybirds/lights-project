@@ -14,19 +14,19 @@ pinMode(8, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+init number = rand()
 digitalWrite(3, HIGH)
 digitalWrite(4, HIGH)
 digitalWrite(5, HIGH)
 digitalWrite(6, HIGH)
 digitalWrite(7, HIGH)
 digitalWrite(8, HIGH)
-delay(100)
+delay(number)
 digitalWrite(3, LOW)
 digitalWrite(4, LOW)
 digitalWrite(5, LOW)
 digitalWrite(6, LOW)
 digitalWrite(7, LOW)
 digitalWrite(8, LOW)
-delay(100)
+delay(number)
 }
