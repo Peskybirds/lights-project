@@ -1,3 +1,5 @@
+// im sorry for who has to read this code i don't like indents so yea and a very quick overview on what this is meant to do
+// its meant to flash some pins on and some off and the button does math so it switches mode
 int readValue = 0;
 void setup() {
   // setting all the pins as input or output
