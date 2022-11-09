@@ -54,7 +54,7 @@ else if(number == (2)){
   delay(readValue);
 }
 else if(number == (3)){
-  rannumber = random(10, 1000)
+  rannumber = random(10, 1000);
  digitalWrite(3,LOW);
   digitalWrite(4,HIGH);
   digitalWrite(5,LOW);
